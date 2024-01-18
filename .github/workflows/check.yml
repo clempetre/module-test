@@ -12,4 +12,4 @@ jobs:
           node-version: '14'
           cache: npm
       - run: npm ci
-      - run: yarn test
+      - run: npm test
